@@ -14,10 +14,10 @@ public class PaymentTest extends BaseTest {
     public static Object[][] getData()
     {
         return new Object[][]{
-                {"admin","admin1234","OrangeHRM4"}
+                {"admin","admin1234","OrangeHRM"}
         };
     }
-    @Test(description="Check the title of home page",dataProvider = "getData")
+    @Test(description="Check the title of payment page",dataProvider = "getData")
     public void loginTest(String username,String password,String expectedTitle)  {
         LoginPage login =new LoginPage();
         login.loginToApplication(username,password);

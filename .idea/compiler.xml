@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Check24Project" />
+        <module name="SimpleTestNgProject" />
       </profile>
     </annotationProcessing>
   </component>

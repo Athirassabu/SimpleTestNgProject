@@ -12,7 +12,7 @@
       </class> <!-- com.check24.tests.LoginTest -->
       <class name="com.check24.tests.PaymentTest">
         <methods>
-          <include name="loginTest"/>
+          <include name="loginTest" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
