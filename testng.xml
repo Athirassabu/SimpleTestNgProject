@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.check24.listeners.TestListener"/>
+    </listeners>
+    <test parallel="classes" thread-count="1" name="Check24">
+        <classes>
+            <class name="com.check24.tests.LoginTest"/>
+            <class name="com.check24.tests.PaymentTest"/>
+        </classes>
+    </test>
+</suite>
